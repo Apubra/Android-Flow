@@ -1,0 +1,2 @@
+rootProject.name='jobschedulerexample'
+include ':app'

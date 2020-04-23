@@ -1,0 +1,2 @@
+rootProject.name='Long Click Menu'
+include ':app'

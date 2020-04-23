@@ -1,0 +1,66 @@
+If we want all super power in android we need to root our systtem.
+After root we can customize our phone as like-
+    Booting image change
+    Find out saving wifi password.
+    Different hacking app need root.
+    Etc...
+
+Ok, lets root our systtem-
+There are many way we can root-
+1.Using some android app
+    -Kingo root
+    -Root king
+
+2.Using Desktop app
+    -Kingo root
+    -one click root
+
+3.Using TWRP
+
+
+# Today we will discuss about TWRP
+
+First of all we need to unlock our boot.
+Go to your mobile and enable the debuging and OME mode.
+For that we need SDK install in our pc.
+Then open your terminal and following the command-
+adb reboot bootloader
+
+fastboot oem unlock
+
+Then you can check your boot device-
+fastboot devices
+
+Ok, now boot is unlock.
+
+Then reboot your device-
+fastboot reboot
+
+
+# Install TWRP
+Let’s start by downloading TWRP for your device. 
+You can find a list of devices that are currently supported by following the link.
+https://twrp.me/Devices/
+
+Open a terminal where your TWRP Recovery .img file is saved.
+Then add the following command-
+adb reboot bootloader
+
+
+fastboot flash recovery twrp-2.8.x.x-xxx.img
+
+fastboot boot twrp-2.8.x.x-xxx.img
+
+Then TWRP UI will open for you-
+Then go to install, then select your Update_SuperSu zip folder.
+Then swipe the sikbar, after click left option.
+
+And last reboot system.
+
+You can follow the video link-
+https://www.youtube.com/watch?v=ySxCtpvqvJ4&t=312s
+
+It will take some times and afterall it wil root your device..
+
+
+Thanks for reading, Happy Coding :)
